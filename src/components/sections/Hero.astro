@@ -1,0 +1,160 @@
+---
+import { basics } from '@cv';
+import Section from '@/components/Section.astro';
+import World from '@/icons/World.astro';
+import Mail from '@/icons/Email.astro';
+import Phone from '@/icons/Phone.astro';
+import LinkedIn from '@/icons/Linkedin.astro';
+import Github from '@/icons/Github.astro';
+import Twitter from '@/icons/Twitter.astro';
+import Instagram from '@/icons/Instagram.astro';
+
+const { name, label, image, location, profiles, phone, email } = basics;
+const { address, city, region, postalCode, countryCode } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+    Github,
+    LinkedIn,
+    Twitter,
+    Instagram
+}
+
+const linkedIn = profiles.find((profile) => profile.network === 'LinkedIn');
+const linkedInUrl = linkedIn?.url;
+
+const github = profiles.find((profile) => profile.network === 'Github');
+const githubUrl = github?.url;
+
+const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' • ');
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+            <span>
+                <World />
+                {city}, {region}
+            </span>
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
+                {
+                    email && (
+                        <a 
+                        href={`mailto:${email}`}
+                        title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a 
+                        href={`tel:${phone}`}
+                        title={`Llamar por télefono a ${name} al número ${email}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({network, url, username}) => {
+                        const Icon = SOCIAL_ICONS[network];
+
+                        return (
+                            <a
+                                href={url}
+                                title={`Ir a ${name} en ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        )
+                    })
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+</Section>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 16px;
+    }
+
+    span {
+        colo: #666;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    footer {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 8px;
+        font-size: 0.65rem;
+    }
+
+    footer a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        border-radius: 6px;
+        padding: 6px;
+        height: 32px;
+        width: 32px;
+        transition: all .3s ease;
+    }
+
+    footer a:hover {
+        background: #eee;
+        border-color: #aaa;
+    }
+
+</style>
