@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://IvanRep.github.io',
+  site: 'https://ivanrep.github.io',
   base: '/json-portfolio',
 });
