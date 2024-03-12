@@ -25,7 +25,7 @@ const linkedInUrl = linkedIn?.url;
 const github = profiles.find((profile) => profile.network === 'Github');
 const githubUrl = github?.url;
 
-const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' • ');
+const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean);
 ---
 
 <Section>
@@ -37,10 +37,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                 <World />
                 {city}, {region}
             </span>
-            <footer class="print">
-                {printInfo}
-            </footer>
-            <footer class="no-print">
+            <footer>
                 {
                     email && (
                         <a 
@@ -49,7 +46,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                            <Mail />
+                            <span class="icon"><Mail /></span> <span class="print">{email}</span>
                         </a>
                     )
                 }
@@ -61,7 +58,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                            <Phone />
+                            <span class="icon"><Phone /></span> <span class="print">{phone}</span>
                         </a>
                     )
                 }
@@ -76,7 +73,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon />
+                                <span class="icon"><Icon /></span> <span class="print">{url}</span>
                             </a>
                         )
                     })
@@ -123,7 +120,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
         border-radius: 16px;
     }
 
-    span {
+    .info>span {
         color: #666;
         display: flex;
         align-items: center;
@@ -137,10 +134,18 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
         gap: 0.5rem;
         margin-top: 8px;
         font-size: 0.65rem;
+        flex-wrap: wrap;
     }
 
     footer a {
         color: #777;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.25rem;
+    }
+
+    footer a .icon {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -157,4 +162,10 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
         border-color: #aaa;
     }
 
+    @media print {
+        footer {
+            row-gap: 0.25rem;
+            column-gap: 1rem;
+        }
+    }
 </style>
