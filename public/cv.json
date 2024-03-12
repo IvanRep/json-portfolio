@@ -1,154 +1,205 @@
 {
     "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "https://media.licdn.com/dms/image/D4D35AQETb6lLYso5QA/profile-framedphoto-shrink_200_200/0/1699379755879?e=1709546400&v=beta&t=3UGt8xUklyGzh1XUjAoDu60Qwnd99oOpOW9NRjLGctw",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "name": "Iván Parra",
+      "label": "Desarrollador Web Fullstack",
+      "image": "https://onedrive.live.com/embed?resid=C27AF17CE0AF8DC7%2143653&authkey=%21AFay7eYJWkOnD9Y&width=800&height=800",
+      "email": "ivanparra.develop@gmail.com",
+      "phone": "(+34) 643823696",
+      "url": "https://ivanrep.github.io/json-portfolio/",
+      "summary": "Soy un Desarrollador web fullstack junior apasionado por crear experiencias únicas y eficientes para usuarios. Con habilidades en Frontend y Backend, puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. ¡Estoy listo para aprender y crear juntos algo increíble!",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "***",
+        "postalCode": "***",
+        "city": "Madrid",
+        "countryCode": "ES",
+        "region": "España"
       },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      },
+      "profiles": [
       {
         "network": "Github",
-        "username": "john",
-        "url": "https://github.com/john"
+        "username": "IvanRep",
+        "url": "https://github.com/ivanrep"
       },
       {
         "network": "LinkedIn",
-        "username": "john",
-        "url": "https://linkedin.com/john"
+        "username": "Ivan",
+        "url": "https://www.linkedin.com/in/iván-parra-ruiz-9655a8220/"
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Tus Expertos",
+      "position": "Desarrollador Web",
+      "url": "https://www.tusexpertos.com/",
+      "startDate": "2021-03-01",
+      "endDate": "2021-06-30",
+      "summary": "Encargado junto con un equipo de 4 personas de desarrollar varias páginas web, aplicaciones móviles y edición de plugins de wordpress con PHP.",
       "highlights": [
-        "Started the company"
+        "Desarrollador Web",
+        "PHP",
+        "Javascript",
+        "HTML/CSS",
+        "Wordpress",
+        "Prestashop"
+      ]
+    },
+    {
+      "name": "Fundación EOI",
+      "position": "Becario Centro de Atención al Usuario",
+      "url": "https://www.eoi.es/es",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-25",
+      "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, así como preparación de videoconferencias, prestamo de equipos y atención de incidencias.",
+      "highlights": [
+        "CAU",
+        "Atención al usuario",
+        "HTML/CSS",
+        "Excel",
+        "Reparación sistemas informáticos"
       ]
     }],
     "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+      "organization": "***",
+      "position": "***",
+      "url": "***",
+      "startDate": "***",
+      "endDate": "***",
+      "summary": "***",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "***"
       ]
     }],
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "institution": "I.E.S Villaverde",
+      "url": "https://site.educa.madrid.org/ies.villaverde.madrid/",
+      "area": "Desarrollo de Aplicaciones Multiplataforma",
+      "studyType": "Grado Superior",
+      "startDate": "2019-09-05",
+      "endDate": "2021-06-25",
+      "score": "***",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Bases de Datos",
+        "Entornos de Desarrollo",
+        "Lenguajes de marcas y sistemas de gestión de información",
+        "Programación",
+        "Sistemas informáticos",
+        "Acceso a datos",
+        "Desarrollo de interfaces",
+        "Programación de servicios y procesos",
+        "Sistemas de gestión empresarial"
+      ]
+    },
+    {
+      "institution": "I.E.S Villaverde",
+      "url": "https://site.educa.madrid.org/ies.villaverde.madrid/",
+      "area": "Sistemas Microinformáticos y Redes",
+      "studyType": "Grado Medio",
+      "startDate": "2017-09-05",
+      "endDate": "2019-06-25",
+      "score": "***",
+      "courses": [
+        "Aplicaciones Ofimáticas",
+        "Montaje y mantenimiento de equipos",
+        "Redes locates",
+        "Sistemas operativos monopuesto",
+        "Aplicaciones web",
+        "Seguridad informática",
+        "Servicios en red"
       ]
     }],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "***",
+      "date": "***",
+      "awarder": "***",
+      "summary": "***"
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "***",
+      "date": "***",
+      "issuer": "***",
+      "url": "***"
     }],
     "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "***",
+      "publisher": "***",
+      "releaseDate": "***",
+      "url": "***",
+      "summary": "***"
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
+      "name": "HTML/CSS",
+      "level": "Master"
+    },
+    {"name": "Javascript"},
+    {"name": "Typescript"},
+    {"name": "Angular"},
+    {"name": "React"},
+    {"name": "Node"},
+    {"name": "Express"},
+    {"name": "PHP"},
+    {"name": "Bases de datos SQL y NoSQL"},
+    {"name": "Repositorios GIT"},
+    {"name": "Java"},
+    {"name": "Spring Boot y JPA"}],
     "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "Básico"
     }],
     "interests": [{
-      "name": "Wildlife",
+      "name": "***",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "***"
       ]
     }],
     "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "***",
+      "reference": "***"
     }],
     "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Economist",
+      "startDate": "2021-11-01",
+      "endDate": "2022-02-25",
+      "description": "Aplicación pensada para la gestión de transacciones bancarias, desarrollada en Angular 12",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Angular","TypeScript", "HTML/CSS", "Javascript"
       ],
-      "isActive": true,
-      "url": "https://project.com/"
+      "isActive": false,
+      "url": "https://github.com/IvanRep/Economist"
     },
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Server-side HomePage",
+      "startDate": "2021-12-14",
+      "endDate": "2022-04-04",
+      "description": "Página de inicio personalizable para el navegador almacenada en el lado del servidor",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Angular","TypeScript", "HTML/CSS", "Javascript"
       ],
-      "isActive": true,
-      "url": "https://project.com/"
+      "isActive": false,
+      "url": "https://github.com/IvanRep/Server-side_HomePage"
     },
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "JSON Portfolio",
+      "startDate": "2024-02-26",
+      "endDate": "2024-02-27",
+      "description": "Un portfolio minimalista configurable mediante un JSON",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Astro", "TypeScript", "Javascript", "HTML/CSS", "JSON"
       ],
       "isActive": true,
-      "url": "https://project.com/"
+      "url": "https://github.com/IvanRep/json-portfolio"
     },
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Custom Web Shortcuts",
+      "startDate": "2024-01-08",
+      "endDate": "2024-01-31",
+      "description": "Extensión para Chrome, Edge... que permite configurar acciones de teclado personalizadas para navegar por las páginas web.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Chrome Extensions", "HTML/CSS", "Javascript"
       ],
       "isActive": true,
-      "url": "https://project.com/"
+      "url": "https://github.com/IvanRep/custom-web-shortcuts"
     }]
   }
