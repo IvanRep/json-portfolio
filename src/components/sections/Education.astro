@@ -20,13 +20,11 @@ import { education } from '@cv';
                             <time>{startYear}{endYear != null ? ` - ${endYear}` : ''}</time>
                         </header>
                         <footer>
-                            <ul>
+                            <p>
                                 {
-                                    courses.map((course) => {
-                                        return <li><p>{course}</p></li>
-                                    })
+                                    courses.join(', ')
                                 }
-                            </ul>
+                            </p>
                         </footer>
                     </article>
                 </li>
@@ -44,6 +42,9 @@ import { education } from '@cv';
         gap: 32px;
     }
 
+    ul.courses {
+        gap: 4px;
+    }
     article h3 {
         font-weight: 500;
         color: #111;
@@ -68,5 +69,13 @@ import { education } from '@cv';
     footer p{
         color: #666;
         font-size: 0.8rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-wrap: pretty;
+    }
+    footer p::after {
+        content : '.';
+        padding: 0px;
+        margin-left: -.8ch;
     }
 </style>
