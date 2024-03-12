@@ -57,7 +57,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                     phone && (
                         <a 
                         href={`tel:${phone}`}
-                        title={`Llamar por télefono a ${name} al número ${email}`}
+                        title={`Llamar por télefono a ${name} al número ${phone}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         >
@@ -72,7 +72,7 @@ const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean).join(' 
                         return (
                             <a
                                 href={url}
-                                title={`Ir a ${name} en ${network}`}
+                                title={`Buscar a ${name} en ${network}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
