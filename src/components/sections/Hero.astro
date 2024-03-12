@@ -10,7 +10,7 @@ import Twitter from '@/icons/Twitter.astro';
 import Instagram from '@/icons/Instagram.astro';
 
 const { name, label, image, location, profiles, phone, email } = basics;
-const { address, city, region, postalCode, countryCode } = location;
+const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
     Github,
@@ -18,14 +18,6 @@ const SOCIAL_ICONS: Record<string, any> = {
     Twitter,
     Instagram
 }
-
-const linkedIn = profiles.find((profile) => profile.network === 'LinkedIn');
-const linkedInUrl = linkedIn?.url;
-
-const github = profiles.find((profile) => profile.network === 'Github');
-const githubUrl = github?.url;
-
-const printInfo = [email, phone, linkedInUrl, githubUrl].filter(Boolean);
 ---
 
 <Section>
