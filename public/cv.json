@@ -48,7 +48,7 @@
       "url": "https://www.eoi.es/es",
       "startDate": "2019-03-01",
       "endDate": "2019-06-25",
-      "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, así como preparación de videoconferencias, prestamo de equipos y atención de incidencias.",
+      "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, gestión de incidencias, así como preparación de videoconferencias, prestamo de equipos y atención de incidencias.",
       "highlights": [
         "CAU",
         "Atención al usuario",
@@ -99,7 +99,7 @@
       "courses": [
         "Aplicaciones Ofimáticas",
         "Montaje y mantenimiento de equipos",
-        "Redes locates",
+        "Redes locales",
         "Sistemas operativos monopuesto",
         "Aplicaciones web",
         "Seguridad informática",
@@ -139,7 +139,10 @@
     {"name": "Bases de datos SQL y NoSQL"},
     {"name": "Repositorios GIT"},
     {"name": "Java"},
-    {"name": "Spring Boot y JPA"}],
+    {"name": "Spring Boot y JPA"},
+    {"name": "Active Directory"},
+    {"name": "Reparación de Hardware"},
+    {"name": "Administración de Sistemas Operativos"}],
     "languages": [{
       "language": "Español",
       "fluency": "Nativo"
