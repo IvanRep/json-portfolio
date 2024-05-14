@@ -162,6 +162,16 @@
       "reference": "***"
     }],
     "projects": [{
+      "name": "MD References",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-14",
+      "description": "Aplicación web que permite guardar la referencia de varios destinos en formato markdown, editar el archivo y mostrar los destinos en formato web",
+      "highlights": [
+        "Angular","TypeScript", "HTML/CSS", "Markdown"
+      ],
+      "isActive": true,
+      "url": "https://github.com/IvanRep/md-references-app"
+    },{
       "name": "Economist",
       "startDate": "2021-11-01",
       "endDate": "2022-02-25",
