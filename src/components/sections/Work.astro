@@ -11,6 +11,7 @@ import { work } from '@cv';
                 const startYear = new Date(startDate).getFullYear();
                 const endYear = endDate != null ? new Date(endDate).getFullYear() : null;
                 const years = endYear != null ? `${startYear} - ${endYear}` : startYear;
+                
                 return (
                     <li>
                         <article>
@@ -24,6 +25,9 @@ import { work } from '@cv';
                             </header>
                             <footer>
                                 <p>{summary}</p>
+                                <div class="highlights">
+                                    { highlights.map((highlight) => <div class="highlight">{highlight}</div>) }
+                                </div>
                             </footer>
                             
                         </article>    
@@ -43,12 +47,12 @@ import { work } from '@cv';
     }
 
     article h3 {
-        font-weight: 500;
+        font-weight: 700;
         color: #111;
     }
 
     article h4 {
-        font-weight: 400;
+        font-weight: 500;
         color: #222;
     }
 
@@ -61,5 +65,18 @@ import { work } from '@cv';
     time {
         color: #555;
         font-size: 0.85rem;
+    }
+    div.highlights {
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+    div.highlight {
+        border-radius: 6px;
+        background: #aaa;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
     }
 </style>
