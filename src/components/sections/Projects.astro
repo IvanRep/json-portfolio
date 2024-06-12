@@ -52,7 +52,7 @@ import { projects } from '@cv';
 
     article {
         border-radius: 8px;
-        border: 1px solid #f2f2f2;
+        border: 1px solid var(--project-border-color);
         gap: 16px;
         display: flex;
         flex-direction: column;
@@ -69,11 +69,11 @@ import { projects } from '@cv';
     }
 
     article h3 span {
-        color: rgb(0, 188, 64);
+        color: var(--project-active-color);
     }
 
     article a {
-        color: #111;
+        color: var(--h-color);
     }
 
     article a:hover {
@@ -94,8 +94,8 @@ import { projects } from '@cv';
 
     article footer li {
         border-radius: 6px;
-        background: #eee;
-        color: #333;
+        background: var(--project-highlight-background);
+        color: var(--project-highlight-color);
         font-size: 0.7rem;
         font-weight: 500;
         padding: 0.2rem 0.6rem;

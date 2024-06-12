@@ -74,8 +74,9 @@ const profilesInfo = profiles.map(({network, url}) => {
 <style>
 
     footer {
-        background-color: #fdfdfd;
-        border-top: 1px solid #eee;
+        color: var(--km-color);
+        background-color: var(--km-background-color);
+        border-top: 1px solid var(--km-border-color);
         position: fixed;
         bottom: 0px;
         width: 100%;
@@ -93,12 +94,13 @@ const profilesInfo = profiles.map(({network, url}) => {
     }
 
     kbd {
-        background-color: #fafafa;
-        border: 1px solid #ddd;
+        color: var(--kbd-color);
+        background-color: var(--kbd-background-color);
+        border: 1px solid var(--kbd-border-color);
         border-radius: 4px;
         font-size: 14px;
         padding: 4px 8px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 2px var(--kbd-shadow-color);
     }
 
     @keyframes fadeIn {
