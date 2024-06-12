@@ -6,7 +6,7 @@
       "email": "ivanparra.develop@gmail.com",
       "phone": "(+34) 643823696",
       "url": "https://ivanrep.github.io/json-portfolio/",
-      "summary": "Soy un Desarrollador web fullstack junior apasionado por crear experiencias únicas y eficientes para usuarios. Con habilidades en Frontend y Backend, puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. ¡Estoy listo para aprender y crear juntos algo increíble!",
+      "summary": "Soy un Desarrollador web fullstack junior con experiencia desarrollando aplicaciones web propias, con conocimentos en montaje y reparación de equipos infomáticos, así como la administración de sistemas operativos Windows y Linux. Tengo habilidades en Frontend (Typescript, Angular, React) y Backend (Node, Java), puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. En las prácticas en empresas he sido capaz de trabajar en equipo en proyectos en equipos (de 5 personas) con una alta eficiencia. Soy comprometido, trabajador y estoy dispuesto a superar cualquier desafío que se me presente.",
       "location": {
         "address": "***",
         "postalCode": "***",
@@ -26,9 +26,16 @@
         "url": "https://www.linkedin.com/in/iván-parra-ruiz-9655a8220/"
       }]
     },
+    "sectionsOrder": [
+      "Education",
+      "Work",
+      "Skills", 
+      "Languages",
+      "Projects"
+    ],
     "work": [{
       "name": "Tus Expertos",
-      "position": "Desarrollador Web",
+      "position": "Becario Desarrollador Web",
       "url": "https://www.tusexpertos.com/",
       "startDate": "2021-03-01",
       "endDate": "2021-06-30",
@@ -44,7 +51,7 @@
     },
     {
       "name": "Fundación EOI",
-      "position": "Becario Centro de Atención al Usuario",
+      "position": "Becario Centro de Atención al Usuario (CAU)",
       "url": "https://www.eoi.es/es",
       "startDate": "2019-03-01",
       "endDate": "2019-06-25",
@@ -55,17 +62,6 @@
         "HTML/CSS",
         "Excel",
         "Reparación sistemas informáticos"
-      ]
-    }],
-    "volunteer": [{
-      "organization": "***",
-      "position": "***",
-      "url": "***",
-      "startDate": "***",
-      "endDate": "***",
-      "summary": "***",
-      "highlights": [
-        "***"
       ]
     }],
     "education": [{
@@ -106,25 +102,6 @@
         "Servicios en red"
       ]
     }],
-    "awards": [{
-      "title": "***",
-      "date": "***",
-      "awarder": "***",
-      "summary": "***"
-    }],
-    "certificates": [{
-      "name": "***",
-      "date": "***",
-      "issuer": "***",
-      "url": "***"
-    }],
-    "publications": [{
-      "name": "***",
-      "publisher": "***",
-      "releaseDate": "***",
-      "url": "***",
-      "summary": "***"
-    }],
     "skills": [{
       "name": "HTML/CSS",
       "level": "Master"
@@ -150,16 +127,6 @@
     {
       "language": "Ingles",
       "fluency": "Básico"
-    }],
-    "interests": [{
-      "name": "***",
-      "keywords": [
-        "***"
-      ]
-    }],
-    "references": [{
-      "name": "***",
-      "reference": "***"
     }],
     "projects": [{
       "name": "MD References",
@@ -214,5 +181,11 @@
       ],
       "isActive": true,
       "url": "https://github.com/IvanRep/custom-web-shortcuts"
+    }],
+    "certificates": [{
+      "name": "***",
+      "date": "***",
+      "issuer": "***",
+      "url": "***"
     }]
   }
