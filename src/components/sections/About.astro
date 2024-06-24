@@ -1,11 +1,48 @@
 ---
 import Section from "@/components/Section.astro";
+import Availability from "@/icons/Availability.astro";
+import Car from "@/icons/Car.astro";
 import { basics } from '@cv';
-const { summary } = basics;
+const { summary, vehicle, availability } = basics;
 ---
 
 <Section title="Sobre mi">
     <p>
         {summary}
     </p>
+    <div>
+        <span><i><Car/></i>{vehicle}</span>
+        <span><i><Availability/></i>{availability}</span>
+    </div>
 </Section>
+
+<style>
+    p {
+        white-space: pre-line;
+    }
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    i {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+
+    }
+    span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 6px;
+        background: var(--primary-highlight-background);
+        color: var(--background-color);
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 0.2rem 0.4rem;
+    }
+</style>

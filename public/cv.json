@@ -6,7 +6,9 @@
       "email": "ivanparra.develop@gmail.com",
       "phone": "(+34) 643823696",
       "url": "https://ivanrep.github.io/json-portfolio/",
-      "summary": "Soy un Desarrollador web fullstack junior con experiencia desarrollando aplicaciones web propias, con conocimentos en montaje y reparación de equipos infomáticos, así como la administración de sistemas operativos Windows y Linux. Tengo habilidades en Frontend (Typescript, Angular, React) y Backend (Node, Java), puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. En las prácticas en empresas he sido capaz de trabajar en equipo en proyectos en equipos (de 5 personas) con una alta eficiencia. Soy comprometido, trabajador y estoy dispuesto a superar cualquier desafío que se me presente.",
+      "summary": "Soy un Desarrollador web fullstack junior con experiencia desarrollando aplicaciones web propias, con conocimentos en montaje y reparación de equipos infomáticos, así como la administración de sistemas operativos Windows y Linux.\n\n Tengo habilidades en Frontend (Typescript, Angular, React) y Backend (Node, Java), puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. \n\n En las prácticas en empresas he sido capaz de trabajar en proyectos en equipos (de 5 personas) con una alta eficiencia. Soy comprometido, trabajador y estoy dispuesto a superar cualquier desafío que se me presente.",
+      "vehicle": "Carnet B - Vehículo Propio",
+      "availability": "Disponibilidad Inmediata",
       "location": {
         "address": "***",
         "postalCode": "***",
@@ -27,6 +29,7 @@
       }]
     },
     "sectionsOrder": [
+      "About",
       "Education",
       "Work",
       "Skills", 
