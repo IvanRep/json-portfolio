@@ -2,7 +2,7 @@
     "basics": {
       "name": "Iván Parra",
       "label": "Desarrollador Web Fullstack",
-      "image": "https://onedrive.live.com/embed?resid=C27AF17CE0AF8DC7%2143653&authkey=%21AFay7eYJWkOnD9Y&width=800&height=800",
+      "image": "https://www.dropbox.com/scl/fi/rizzi2abuj9533kstnv53/presentacion.jpeg?rlkey=n8af2and8ajmlb59o0ulggrqb&st=ymt8nopp&raw=1",
       "email": "ivanparra.develop@gmail.com",
       "phone": "(+34) 643823696",
       "url": "https://ivanrep.github.io/json-portfolio/",
@@ -58,7 +58,7 @@
       "url": "https://www.eoi.es/es",
       "startDate": "2019-03-01",
       "endDate": "2019-06-25",
-      "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, gestión de incidencias, así como preparación de videoconferencias, prestamo de equipos y atención en persona de incidencias.",
+      "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, gestión de incidencias, así como preparación de videoconferencias, préstamo de equipos y atención en persona de incidencias.",
       "highlights": [
         "CAU",
         "Atención al usuario",
@@ -66,7 +66,20 @@
         "Excel",
         "Reparación sistemas informáticos"
       ]
-    }],
+    },
+    {
+      "name": "Domino's Pizza",
+      "position": "Repartidor y Personal de tienda",
+      "url": "https://www.dominospizza.es/",
+      "startDate": "2024-10-16",
+      "endDate": "",
+      "summary": "Reparto en moto, atención al cliente presencialmente y de manera telefónica, limpieza del local y prepraración de pizzas y complementos.",
+      "highlights": [
+        "Trabajo en equipo",
+        "Atención al cliente"
+      ]
+    }
+  ],
     "education": [{
       "institution": "I.E.S Villaverde",
       "url": "https://site.educa.madrid.org/ies.villaverde.madrid/",
