@@ -37,6 +37,32 @@
       "Projects"
     ],
     "work": [{
+      "name": "Domino's Pizza",
+      "position": "Responsable de turno",
+      "url": "https://www.dominospizza.es/",
+      "startDate": "2025-07-15",
+      "endDate": "",
+      "summary": "Preparación del turno, gestión de personal, manipulación de caja registradora y caja fuerte, atención al cliente, cocina.",
+      "highlights": [
+        "Trabajo en equipo",
+        "Atención al cliente",
+        "Liderazgo",
+        "Excel"
+      ]
+    },
+    {
+      "name": "Domino's Pizza",
+      "position": "Repartidor y Personal de tienda / Lider de turno",
+      "url": "https://www.dominospizza.es/",
+      "startDate": "2024-10-16",
+      "endDate": "2025-07-15",
+      "summary": "Reparto en moto, atención al cliente presencialmente y de manera telefónica, limpieza del local y prepraración de pizzas y complementos.",
+      "highlights": [
+        "Trabajo en equipo",
+        "Atención al cliente"
+      ]
+    },
+    {
       "name": "Tus Expertos",
       "position": "Becario Desarrollador Web",
       "url": "https://www.tusexpertos.com/",
@@ -65,32 +91,6 @@
         "HTML/CSS",
         "Excel",
         "Reparación sistemas informáticos"
-      ]
-    },
-    {
-      "name": "Domino's Pizza",
-      "position": "Repartidor y Personal de tienda / Lider de turno",
-      "url": "https://www.dominospizza.es/",
-      "startDate": "2024-10-16",
-      "endDate": "2025-07-15",
-      "summary": "Reparto en moto, atención al cliente presencialmente y de manera telefónica, limpieza del local y prepraración de pizzas y complementos.",
-      "highlights": [
-        "Trabajo en equipo",
-        "Atención al cliente"
-      ]
-    },
-    {
-      "name": "Domino's Pizza",
-      "position": "Responsable de turno",
-      "url": "https://www.dominospizza.es/",
-      "startDate": "2025-07-15",
-      "endDate": "",
-      "summary": "Preparación del turno, gestión de personal, manipulación de caja registradora y caja fuerte, atención al cliente, cocina.",
-      "highlights": [
-        "Trabajo en equipo",
-        "Atención al cliente",
-        "Liderazgo",
-        "Excel"
       ]
     }
   ],
