@@ -1,6 +1,6 @@
 ---
 import Section from "@/components/Section.astro";
-import { education } from '@cv';
+import { education, sideCourses } from '@cv';
 ---
 
 <Section title="Educación">
@@ -35,11 +35,34 @@ import { education } from '@cv';
     </ul>
 </Section>
 
+<Section class="side-courses" title=" Otros Cursos">
+    <ul class="side-courses">
+    {
+        sideCourses.map(({course, author, url, time }) => {
+            return (
+                <a href={url}>
+                <li>
+                    <article>
+                        <h3>{course} <span>( {time}h )</span></h3>
+                        <h4> by {author}</h4>
+                    </article>
+                </li>
+                </a>
+            )
+        })
+    }
+    </ul>
+</Section>
+
 <style>
     ul {
         display: flex;
         flex-direction: column;
         gap: 32px;
+    }
+
+    li {
+        break-inside: avoid;
     }
 
     ul.courses {
@@ -78,4 +101,29 @@ import { education } from '@cv';
         padding: 0px;
         margin-left: -.8ch;
     }
+
+    ul.side-courses {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit, 
+            minmax(200px, 1fr)
+        );
+        row-gap: 4px;
+        font-size: 0.8rem;
+    }
+
+    ul.side-courses h4 {
+        color: var(--p-color);
+    }
+    a li {
+        padding: 10px;
+    }
+    a:hover li {
+        background: var(--hover-color);
+        border-radius: 4px;
+    }
+    /* span {
+        display: inline-block;
+        break-inside: avoid;
+    } */
 </style>

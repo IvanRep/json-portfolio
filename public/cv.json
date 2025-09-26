@@ -108,6 +108,36 @@
         "Servicios en red"
       ]
     }],
+    "sideCourses": [{
+        "course": "Spring Framework & Spring Boot",
+        "author": "Andrés Guzman",
+        "url": "https://www.udemy.com/certificate/UC-f78d43fe-9bba-47df-b724-4e7f2aa50870/",
+        "time": "40.5"
+    },
+    {
+        "course": "Oracle PL/SQL",
+        "author": "Apasoft Training",
+        "url": "",
+        "time": "12"
+    },
+    {
+        "course": "Electron JS y React JS: Creando un Spotify",
+        "author": "Agustin Navarro Galdon",
+        "url": "https://www.udemy.com/certificate/UC-81b2930b-bed5-4f74-98a1-e1a19701f3b4/",
+        "time": "12.5"
+    },
+    {
+        "course": "Fundamentos de Windows Scripting",
+        "author": "Julio Fuentes",
+        "url": "https://www.udemy.com/certificate/UC-7e416ff8-a015-4bfb-b5f3-04b11a81c4fc/",
+        "time": "4"
+    },
+    {
+        "course": "Docker",
+        "author": "Ricardo Andre Gonzalez Gomez",
+        "url": "https://www.udemy.com/certificate/UC-a2c26551-7854-4ddd-9de0-51fb8291119b/",
+        "time": "8.5"
+    }],
     "skills": [{
       "name": "HTML/CSS",
       "level": "Master"

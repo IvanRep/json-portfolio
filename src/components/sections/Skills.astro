@@ -4,7 +4,7 @@ import Section from "@/components/Section.astro";
 import { skills } from '@cv';
 ---
 
-<Section title="Skills">
+<Section title="Skills" avoidBreak={true}>
     <ul>
         {
             skills.map(({name}) => (
@@ -17,6 +17,7 @@ import { skills } from '@cv';
 </Section>
 
 <style>
+
     ul {
         display: inline-flex;
         gap: 8px;
@@ -30,5 +31,6 @@ import { skills } from '@cv';
         font-size: 0.8rem;
         font-weight: 500;
         padding: 0.2rem 0.6rem;
+
     }
 </style>
