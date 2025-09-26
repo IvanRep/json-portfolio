@@ -6,7 +6,7 @@
       "email": "ivanparra.develop@gmail.com",
       "phone": "(+34) 643823696",
       "url": "https://ivanrep.github.io/json-portfolio/",
-      "summary": "Soy un Desarrollador web fullstack junior con experiencia desarrollando aplicaciones web propias, con conocimentos en montaje y reparación de equipos infomáticos, así como la administración de sistemas operativos Windows y Linux.\n\n Tengo habilidades en Frontend (Typescript, Angular, React) y Backend (Node, Java), puedo crear sitios web y aplicaciones web de alta calidad que se adapten a tus necesidades y estén listas para escalar. \n\n En las prácticas en empresas he sido capaz de trabajar en proyectos en equipos (de 5 personas) con una alta eficiencia. Soy comprometido, trabajador y estoy dispuesto a superar cualquier desafío que se me presente.",
+      "summary": "Soy un Desarrollador web fullstack junior con experiencia desarrollando aplicaciones web propias, con conocimentos en montaje y reparación de equipos infomáticos, así como la administración de sistemas operativos Windows y Linux.\n\n Tengo habilidades en Frontend (Typescript, Angular, React) y Backend (Node, Java, PL/SQL) gracias a varios proyectos personales que he creado y desarrollado desde cero tanto la parte Frontend como Backend, usando diversas tecnologías. \n\n En las prácticas en empresas he sido capaz de trabajar en proyectos en equipos (de 5 personas) con una alta eficiencia. Soy comprometido, trabajador y estoy dispuesto a superar cualquier desafío que se me presente.",
       "vehicle": "Carnet B - Vehículo Propio",
       "availability": "Disponibilidad Inmediata",
       "location": {
@@ -30,48 +30,24 @@
     },
     "sectionsOrder": [
       "About",
-      "Education",
       "Work",
+      "Education",
       "Skills", 
       "Languages",
       "Projects"
     ],
     "work": [{
-      "name": "Domino's Pizza",
-      "position": "Responsable de turno",
-      "url": "https://www.dominospizza.es/",
-      "startDate": "2025-07-15",
-      "endDate": "",
-      "summary": "Preparación del turno, gestión de personal, manipulación de caja registradora y caja fuerte, atención al cliente, cocina.",
-      "highlights": [
-        "Trabajo en equipo",
-        "Atención al cliente",
-        "Liderazgo",
-        "Excel"
-      ]
-    },
-    {
-      "name": "Domino's Pizza",
-      "position": "Repartidor y Personal de tienda / Lider de turno",
-      "url": "https://www.dominospizza.es/",
-      "startDate": "2024-10-16",
-      "endDate": "2025-07-15",
-      "summary": "Reparto en moto, atención al cliente presencialmente y de manera telefónica, limpieza del local y prepraración de pizzas y complementos.",
-      "highlights": [
-        "Trabajo en equipo",
-        "Atención al cliente"
-      ]
-    },
-    {
       "name": "Tus Expertos",
-      "position": "Becario Desarrollador Web",
+      "position": "Desarrollador Web",
       "url": "https://www.tusexpertos.com/",
-      "startDate": "2021-03-01",
-      "endDate": "2021-06-30",
-      "summary": "Encargado junto con un equipo de 4 personas de desarrollar varias páginas web, aplicaciones móviles y edición de plugins de wordpress con PHP.",
+      "startDate": "2024-03-01",
+      "endDate": "2025-06-30",
+      "summary": "Encargado junto con un equipo de 4 personas de mantener y modificar varias páginas web basadas en Angular, asi como edición y mantenimiento en un integración entre PHP y una base de datos Oracle con PL/SQL.",
       "highlights": [
         "Desarrollador Web",
         "PHP",
+        "PL/SQL",
+        "Angular",
         "Javascript",
         "HTML/CSS",
         "Wordpress",
@@ -80,10 +56,10 @@
     },
     {
       "name": "Fundación EOI",
-      "position": "Becario Centro de Atención al Usuario (CAU)",
+      "position": "Centro de Atención al Usuario (CAU)",
       "url": "https://www.eoi.es/es",
-      "startDate": "2019-03-01",
-      "endDate": "2019-06-25",
+      "startDate": "2023-03-01",
+      "endDate": "2024-06-25",
       "summary": "Atención a los usuarios de la escuela para la solución de errores en equipos informáticos, gestión de incidencias, así como preparación de videoconferencias, préstamo de equipos y atención en persona de incidencias.",
       "highlights": [
         "CAU",
@@ -136,14 +112,15 @@
       "name": "HTML/CSS",
       "level": "Master"
     },
+    {"name": "Bases de datos SQL y NoSQL"},
+    {"name": "PL/SQL"},
+    {"name": "PHP"},
     {"name": "Javascript"},
     {"name": "Typescript"},
     {"name": "Angular"},
     {"name": "React"},
     {"name": "Node"},
     {"name": "Express"},
-    {"name": "PHP"},
-    {"name": "Bases de datos SQL y NoSQL"},
     {"name": "Repositorios GIT"},
     {"name": "Java"},
     {"name": "Spring Boot y JPA"},
